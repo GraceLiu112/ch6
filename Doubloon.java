@@ -4,15 +4,15 @@ public class Doubloon{
 		String word = "Ana";
 		System.out.println(h(word));
 	}
-	public static String h(String w){
+	public static boolean h(String w){
 
 		for(int i = 0; i < w.length()-1; i++){
 			if(w.charAt(i) == w.charAt(i+1)){
-				return "is boolean";
+				return true;
 			}
 		
 		}
-		return "is not boolean";
+		return false;
 		
 	}
 	
